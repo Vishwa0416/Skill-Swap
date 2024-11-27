@@ -25,3 +25,12 @@
     transform: rotate(360deg);
   }
 }
+
+.App-header-link {
+  text-decoration: none;
+  color: inherit; /* Inherits color from the parent element */
+}
+
+.App-header-link:hover {
+  text-decoration: underline; /* Optional: Add underline on hover */
+}
