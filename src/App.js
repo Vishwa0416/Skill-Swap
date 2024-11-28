@@ -8,15 +8,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <header className="App-header">
-          {/* Use Link to make "Skill Swap" clickable */}
-          <h1>
-            <Link to="/login" className="App-header-link">
-              Skill Swap
-            </Link>
-          </h1>
-        </header>
-
         {/* Define Routes */}
         <Routes>
           <Route path="/" element={<Home />} /> {/* Example Home component */}
