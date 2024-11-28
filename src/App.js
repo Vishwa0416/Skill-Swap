@@ -21,7 +21,7 @@ function App() {
 const Home = () => (
   <div>
     <h2>Welcome to Skill Swap!</h2>
-    <p>Click "Skill Swap" to go to the login page.</p>
+    <p>Click <a href='./login.js'>"Skill Swap"</a> to go to the login page.</p>
   </div>
 );
 

@@ -24,7 +24,7 @@ const Login = () => {
   return (
     <div className="login-container">
       <div className="login-box">
-        <h1 className="login-heading">Welcome to SkillLink</h1>
+        <h1 className="login-heading">Welcome to Skill Swap</h1>
         <p className="login-subheading">Connect. Learn. Grow.</p>
 
         {error && <div className="error-message">{error}</div>}
