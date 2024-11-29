@@ -1,25 +1,5 @@
-import React, { useState } from 'react';
-import './login.css';
 
-const Login = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [error, setError] = useState('');
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    // Basic validation
-    if (!email || !password) {
-      setError('Please fill in all fields.');
-      return;
-    }
-
-    // Simulated authentication
-    console.log('Login submitted:', { email, password });
-    setError('');
-    alert('Login successful!'); // Replace with actual authentication logic
-  };
+import './signup.css';
 
   return (
     <div className="login-container">
@@ -58,11 +38,11 @@ const Login = () => {
         </form>
 
         <p className="signup-prompt">
-          Don't have an account? <a href="/signup.js">Sign up here</a>
+          Don't have an account? <a href="/signup">Sign up here</a>
         </p>
       </div>
     </div>
   );
-};
+
 
 export default Login;
