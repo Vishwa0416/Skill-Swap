@@ -1,36 +1,65 @@
-.App {
-  text-align: center;
+/* General App Styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App {
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+/* Home Page Styles */
+.home-container {
+  text-align: center;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
-.App-header-link {
+.highlight {
+  color: #ffdd00;
+  text-shadow: 0px 0px 5px rgba(255, 221, 0, 0.8);
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+/* Button Styles */
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1rem;
+  color: #fff;
+  background: #ff5f6d;
+  border: none;
+  border-radius: 5px;
   text-decoration: none;
-  color: inherit; /* Inherits color from the parent element */
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
 }
 
-.App-header-link:hover {
-  text-decoration: underline; /* Optional: Add underline on hover */
+.button:hover {
+  background: #ff8e53;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
 }

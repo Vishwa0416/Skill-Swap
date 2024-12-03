@@ -1,8 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Login from './login';
-//import Login from 'src/login.js'; // Import your Login page
 
 function App() {
   return (
@@ -10,7 +9,7 @@ function App() {
       <div className="App">
         {/* Define Routes */}
         <Routes>
-          <Route path="/" element={<Home />} /> {/* Example Home component */}
+          <Route path="/" element={<Home />} />
           <Route path="/login.js" element={<Login />} />
         </Routes>
       </div>
@@ -19,9 +18,10 @@ function App() {
 }
 
 const Home = () => (
-  <div>
-    <h2>Welcome to Skill Swap!</h2>
-    <p>Click <a href='./login.js'>"Skill Swap"</a> to go to the login page.</p>
+  <div className="home-container">
+    <h1 className="title">Welcome to <span className="highlight">Skill Swap!</span></h1>
+    <p className="description">A place to exchange skills and knowledge.</p>
+    <Link to="/login.js" className="button">Get Started</Link>
   </div>
 );
 
