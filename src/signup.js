@@ -22,7 +22,7 @@ const Signup = () => {
   return (
     <div className="signup-container">
       <div className="signup-box">
-      <h1 className="signup-title">Sign Up for Skill Swap</h1>
+      <h1 className="signup-title">Sign Up for SkillSwap</h1>
       <form className="signup-form" onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Full Name</label>
@@ -62,6 +62,9 @@ const Signup = () => {
         </div>
         <button type="submit" className="submit-button">Sign Up</button>
       </form>
+      <p className="signup-prompt">
+          Already have an account? <a href="/login.js">Login here</a>
+        </p>
       </div>
     </div>
   );

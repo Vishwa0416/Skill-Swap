@@ -65,8 +65,10 @@
   .login-button {
     width: 100%;
     padding: 12px;
-    background-color: #6a11cb;
+    background-color: #ff5f6d;
     color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
     border: none;
     border-radius: 4px;
     font-size: 16px;
@@ -75,7 +77,7 @@
   }
   
   .login-button:hover {
-    background-color: #2575fc;
+    background-color: #ff8e53;
   }
   
   /* Signup Prompt */

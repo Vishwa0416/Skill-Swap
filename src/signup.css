@@ -86,3 +86,19 @@ body {
   background: #ff8e53;
   transform: translateY(-2px);
 }
+
+  /* Signup Prompt */
+  .signup-prompt {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .signup-prompt a {
+    color: #2575fc;
+    text-decoration: none;
+  }
+  
+  .signup-prompt a:hover {
+    text-decoration: underline;
+  }

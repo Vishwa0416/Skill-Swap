@@ -54,7 +54,7 @@ const Login = () => {
             />
           </div>
 
-          <button type="submit" className="login-button">Log In</button>
+          <button type="submit" className="login-button">LOG IN</button>
         </form>
 
         <p className="signup-prompt">
