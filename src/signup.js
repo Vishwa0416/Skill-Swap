@@ -60,6 +60,18 @@ const Signup = () => {
             required
           />
         </div>
+        <div className="form-group">
+          <label htmlFor="password">Confirm Password</label>
+          <input
+            type="confirm_password"
+            id="confirm_password"
+            name="confirm_password"
+            value={formData.confirmpassword}
+            onChange={handleChange}
+            placeholder="Enter the password"
+            required
+          />
+        </div>
         <button type="submit" className="submit-button">Sign Up</button>
       </form>
       <p className="signup-prompt">
