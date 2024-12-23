@@ -4,7 +4,7 @@ import './home.css';
 const Home = () => {
   return (
     <div className="home-container">
-      <section className="home-header">
+      <header className="home-header">
         <h1>Welcome to SkillSwap</h1>
         <p>Connect - Learn - Grow</p>
         <nav className="nav-bar">
@@ -12,7 +12,7 @@ const Home = () => {
           <a href="#about">About Us</a>
           <a href="#contact">Contact</a>
         </nav>
-      </section>
+      </header>
 
       <section id="features" className="section">
         <h2>Features</h2>

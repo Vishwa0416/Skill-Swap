@@ -73,11 +73,12 @@ a:hover {
 .section h2 {
   margin-bottom: 15px;
   font-size: 2rem;
+  color: #ffffff;
 }
 
 .section p {
   font-size: 1.1rem;
-  color: #555;
+  color: #ffffff;
 }
 
 /* Footer */
