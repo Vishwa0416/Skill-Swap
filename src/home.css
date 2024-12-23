@@ -1,97 +1,95 @@
-/* Login Container */
-.login-container {
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #2575fc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+.home-header {
+  text-align: center;
+  background-color: #2575fc;
+  color: #fff;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.home-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.home-header p {
+  margin: 10px 0 20px;
+  font-size: 1.2rem;
+}
+
+/* Navigation Bar */
+.nav-bar {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-family: 'Arial', sans-serif;
+  gap: 20px;
+}
+
+.nav-bar a {
   color: #fff;
-}
-
-/* Login Box */
-.login-box {
-  background-color: #fff;
-  color: #333;
-  padding: 40px 30px;
-  border-radius: 8px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  max-width: 400px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Heading */
-.login-heading {
-  margin-bottom: 10px;
-  font-size: 24px;
-}
-
-.login-subheading {
-  margin-bottom: 20px;
-  font-size: 16px;
-  color: #777;
-}
-
-/* Error Message */
-.error-message {
-  background-color: #f8d7da;
-  color: #721c24;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 15px;
-}
-
-/* Form Group */
-.form-group {
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-label {
-  display: block;
-  margin-bottom: 8px;
-  font-size: 14px;
-}
-
-input {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 14px;
-}
-
-/* Button */
-.login-button {
-  width: 100%;
-  padding: 12px;
-  background-color: #ff5f6d;
-  color: #fff;
-  font-size: 1rem;
   font-weight: bold;
-  border: none;
+  padding: 10px 15px;
   border-radius: 4px;
-  font-size: 16px;
-  cursor: pointer;
   transition: background 0.3s;
 }
 
-.login-button:hover {
-  background-color: #ff8e53;
+.nav-bar a:hover {
+  background-color: #1a5db1;
 }
 
-/* Signup Prompt */
-.signup-prompt {
-  margin-top: 15px;
-  font-size: 14px;
+/* Sections */
+.section {
+  padding: 50px 20px;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+.section p {
+  font-size: 1.1rem;
   color: #555;
 }
 
-.signup-prompt a {
-  color: #2575fc;
-  text-decoration: none;
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+  width: 100%;
 }
 
-.signup-prompt a:hover {
-  text-decoration: underline;
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
 }
