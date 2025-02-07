@@ -30,6 +30,7 @@ body {
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 15px;
+  color: #fff;
 }
 
 .highlight {
@@ -41,6 +42,7 @@ body {
   font-size: 1.2rem;
   margin-bottom: 30px;
   line-height: 1.5;
+  color: #fff;
 }
 
 /* Button Styles */
